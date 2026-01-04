@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top glass">
+    <div class="container">
+        <a class="navbar-brand" href="#">MyPortfolio</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ================= HOME ================= -->
+<section id="home" class="section d-flex align-items-center">
+    <div class="container text-center glass">
+        <h1>Hello, I'm <span class="text-info">Ruchitha</span></h1>
+        <p class="lead">Student | Web Developer</p>
+
+        <a href="RESUME.PDF" download class="btn btn-outline-info btn-lg ">
+            <i class="bi bi-download"></i>
+         Download Resume
+        </a>
+
+        <!-- Social Icons -->
+        <div class="mt-4">
+            <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" class="social-icon">
+                <i class="bi bi-github">https://github.com/settings/connections/applications/0120e057bd645470c1ed</i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank" class="social-icon">
+                <i class="bi bi-linkedin">www.linkedin.com/in/thammanaveni-ruchitha-020820347</i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section">
+    <div class="container glass text-center">
+        <h2>About Me</h2>
+        <p>
+            I am a student passionate about Web Development and learning new technologies.
+            This portfolio is built using HTML, CSS and Bootstrap only.
+        </p>
+    </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section">
+    <div class="container">
+        <h2 class="text-center mb-4">Projects</h2>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card glass">
+                    <div class="card-body">
+                        <h5>Portfolio Website</h5>
+                        <p>Personal portfolio using HTML & CSS</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card glass">
+                    <div class="card-body">
+                        <h5>Hospital Appointment System</h5>
+                        <p>Online appointment booking project</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card glass">
+                    <div class="card-body">
+                        <h5>IoT Smart Home</h5>
+                        <p>Smart home using IPv6 and sensors</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= CERTIFICATES / COURSES ================= -->
+<section id="certificates" class="section">
+    <div class="container">
+        <h2 class="text-center mb-4">Certificates & Courses</h2>
+
+        <div class="row g-4">
+
+            <!-- Certificate 1 -->
+           <div class="col-md-4">
+              <div class="card glass">
+                <img src="AI.jpg" 
+                    class="card-img-top certificate-img" 
+                    alt="Python Certificate">
+
+          <div class="card-body text-center">
+                    <h5>Python Programming</h5>
+                    <p class="text-muted">Python for Beginners</p>
+
+                    <a href="AI.jpg" 
+                     target="_blank" 
+                     class="btn btn-info btn-sm">
+                    View Certificate
+                     </a>
+                </div>
+            </div>
+    </div>
+
+
+            <!-- Certificate 2 -->
+            <div class="col-md-4">
+                <div class="card glass">
+                    <img src="cisco.jpg" 
+                         class="card-img-top certificate-img" 
+                         alt="Machine Learning Certificate">
+
+                    <div class="card-body text-center">
+                        <h5>Machine Learning</h5>
+                        <p>Introduction to ML</p>
+                        <p class="text-muted">NPTEL</p>
+
+                        <a href="cisco.jpg" 
+                           target="_blank" 
+                           class="btn btn-info btn-sm">
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certificate 3 -->
+            <div class="col-md-4">
+                <div class="card glass">
+                    <img src="prompt_engineering.png" 
+                         class="card-img-top certificate-img" 
+                         alt="Python Certificate">
+
+                    <div class="card-body text-center">
+                        <h5>Python Programming</h5>
+                        <p>Python for Beginners</p>
+                        <p class="text-muted">Udemy</p>
+
+                        <a href="prompt_engineering.png" 
+                           target="_blank" 
+                           class="btn btn-info btn-sm">
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= BLOG ================= -->
+<section id="blog" class="section">
+    <div class="container glass text-center">
+        <h2>Blog</h2>
+        <p>
+            I write blogs on Web Development, Machine Learning, and Computer Science topics.
+        </p>
+    </div>
+</section>
+
+
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section">
+    <div class="container glass">
+        <h2 class="text-center">Contact Me</h2>
+
+        <form class="mt-4">
+            <input type="text" class="form-control mb-3" placeholder="Your Name">
+            <input type="email" class="form-control mb-3" placeholder="Your Email">
+            <textarea class="form-control mb-3" placeholder="Your Message"></textarea>
+            <button class="btn btn-info w-100">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+

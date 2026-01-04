@@ -1,0 +1,78 @@
+/* ===== Body ===== */
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== Sections ===== */
+.section {
+    min-height: 100vh;
+    padding: 100px 20px;
+}
+
+/* ===== Glassmorphism ===== */
+.glass {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== Navbar ===== */
+.navbar {
+    padding: 15px;
+}
+
+/* ===== Cards ===== */
+.card {
+    border: none;
+    color: white;
+}
+
+/* ===== Buttons ===== */
+.btn-info {
+    background-color: #00c6ff;
+    border: none;
+}
+
+/* ===== Form ===== */
+.form-control {
+    background: transparent;
+    color: white;
+    border: 1px solid #ccc;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+}
+
+/* ===== Social Icons ===== */
+.social-icon {
+    color: white;
+    font-size: 15px;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    color: #00c6ff;
+}
+
+/* ===== Certificate Images ===== */
+.certificate-img {
+    height: 220px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#certificates .card {
+    transition: 0.3s;
+}
+
+#certificates .card:hover {
+    transform: scale(1.05);
+}
+
