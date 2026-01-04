@@ -1,78 +1,53 @@
-/* ===== Body ===== */
 body {
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    color: white;
-    font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: #fff;
 }
 
-/* ===== Sections ===== */
-.section {
-    min-height: 100vh;
-    padding: 100px 20px;
+.home-section {
+  background: transparent;
 }
 
-/* ===== Glassmorphism ===== */
-.glass {
-    background: rgba(255, 255, 255, 0.12);
-    backdrop-filter: blur(10px);
-    border-radius: 15px;
-    padding: 30px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+.glass-box {
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(12px);
 }
 
-/* ===== Navbar ===== */
-.navbar {
-    padding: 15px;
+.glass-box {
+  padding: 40px;
 }
 
-/* ===== Cards ===== */
-.card {
-    border: none;
-    color: white;
+.glass-card {
+  height: 100%;
+  transition: transform 0.3s;
 }
 
-/* ===== Buttons ===== */
-.btn-info {
-    background-color: #00c6ff;
-    border: none;
+.glass-card:hover {
+  transform: translateY(-5px);
 }
 
-/* ===== Form ===== */
-.form-control {
-    background: transparent;
-    color: white;
-    border: 1px solid #ccc;
+/* Home */
+.home-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
-.form-control::placeholder {
-    color: #ccc;
+/* Social icons */
+.social-links a {
+  font-size: 1.8rem;
+  margin: 0 12px;
+  color: #0dcaf0;
 }
 
-/* ===== Social Icons ===== */
-.social-icon {
-    color: white;
-    font-size: 15px;
-    margin: 0 15px;
-    transition: 0.3s;
+/* Images */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
 }
 
-.social-icon:hover {
-    color: #00c6ff;
+/* Mobile fixes */
+@media (max-width: 768px) {
+  .section {
+    padding: 80px 15px;
+  }
 }
-
-/* ===== Certificate Images ===== */
-.certificate-img {
-    height: 220px;
-    object-fit: cover;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-#certificates .card {
-    transition: 0.3s;
-}
-
-#certificates .card:hover {
-    transform: scale(1.05);
-}
-
